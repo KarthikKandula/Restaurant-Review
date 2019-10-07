@@ -25,4 +25,4 @@ This project uses Restaurant data from [OpenTable API http://opentable.herokuapp
 
 ### NOTE:
 This application uses a database application server provided by my professor which was a central server setup for class purposes.
-You might have to change database 
+You might have to change database address under *spring.datasource.url* in the file *application.properties* to work.(since the database was for class purposes it is no longer active)
