@@ -3,5 +3,10 @@ This is the final project for one of my classes taken in Spring 2019
 
 This project was done with one of my classmates [Prathibha Nallamasa](https://github.com/prathibhaNallamasa)
 
+## Project Description
+A website to search for restaurants and view their reviews. User should register with the website and then login to visit a restaurant or post a review. User can view all the details of the restaurant such as address, contact details, reviews, rating etc.
+
+This project uses Restaurant data from [OpenTable API http://opentable.herokuapp.com](http://opentable.herokuapp.com)
+
 ### NOTE:
 This application uses a database application server provided by my professor which was a central server setup for class purposes. 
