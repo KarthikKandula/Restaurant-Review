@@ -5,10 +5,15 @@ This project was done with one of my classmates [Prathibha Nallamasa](https://gi
 
 ## Technical Specifications
 **Application Framework:** Spring Framework
+
 **Serverside Programming:** Java
+
 **Back-End:** JavaScript
+
 **Front-End:** HTML, CSS
+
 **Database:** SQL, Microsoft SQL Server Management Studio
+
 
 ## Project Description
 A website to search for restaurants and view their reviews. User should register with the website and then login to visit a restaurant or post a review. User can view all the details of the restaurant such as address, contact details, reviews, rating etc.
