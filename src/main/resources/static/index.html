@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Index | Home Page </title>
+<link rel="stylesheet" type=text/css href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<header>
+	<h1>Dinerbar</h1>
+	<img src="website-images/diner-bar.jpg" alt="logo" height=60 width=90>
+	<h3>Welcome to our page</h3>
+	</header>
+	<nav>
+	<a href="index.html"> Home </a>
+	<a href="register.html"> New User Registration </a>
+
+	</nav>
+	
+	<section id="sec">
+	<p id="p2"> If you are new to this website, please register with us to search restaurants near your location.<br>
+		Visit the best restaurant and eat best food with our help.<br>
+		Already a member? Just Login.<br>
+		</p>
+		</section>
+
+	<section id="sec1">  
+	<p id="p1"> Enter your credentials to login</p> <br>
+	<form action="/login" method="post">
+		<input type="text" name="username" id="username" placeholder="Username"> <br><br>
+		<input type="text" name="password" id="password" placeholder="Password"> <br><br>
+		<input type="submit" value="Login" id="login">
+		<a href="Register.html"> Create an Account</a>
+	</form>
+	</section>
+	<br>
+	<br>
+	<br>
+	<br>
+	<footer>
+<a href="index.html"> Home </a>
+	<a href="register.html"> New User Registration </a>
+	
+<p><em>Copyright (c) 2019  Dinerbar<br>
+all rights reserved.</em></p>
+
+</footer>
+</body>
+</html>

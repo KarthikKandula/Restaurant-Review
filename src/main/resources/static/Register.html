@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Register Page</title>
+<link rel="stylesheet" type=text/css href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="b1">
+<header>
+	<h1>Dinerbar</h1>
+	<img src="website-images/diner-bar.jpg" alt="logo" height=60 width=90>
+	<h3>Welcome to our page</h3>
+	</header>
+	<nav>
+	<a href="index.html"> Home </a>
+	<a href="register.html"> New User Registration </a>
+	<a href="search.html"> Search </a>
+	
+	</nav>
+	<div id="rpage">
+	<h2>Register here</h2>
+	
+	<form action="/register" method="post">
+		<input type="text" name="username" id="username" placeholder="Username"> <br><br>
+		<input type="text" name="password" id="password" placeholder="Password"> <br><br>
+		<input type="text" name="firstname" id="firstname" placeholder="Firstname"> <br><br>
+		<input type="text" name="lastname" id="lastname" placeholder="Lastname"> <br><br>
+		<input type="submit" value="Register" id="register">
+	</form>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<footer>
+<a href="index.html"> Home </a>
+	<a href="register.html"> New User Registration </a>
+	<a href="search.html"> Search </a>
+	
+<p><em>Copyright (c) 2019  Dinerbar<br>
+all rights reserved.</em></p>
+
+</footer>
+</body>
+</html>

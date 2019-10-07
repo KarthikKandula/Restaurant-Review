@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type=text/css href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="b2">
+<header>
+	<h1>Dinerbar</h1>
+	<img src="website-images/diner-bar.jpg" alt="logo" height=60 width=90>
+	<h3>Welcome to our page</h3>
+	</header>
+	<nav>
+	<a href="index.html"> Home </a>
+	<a href="register.html"> New User Registration </a>
+	<a href="search.html"> Search </a>
+
+	</nav>
+	
+	
+	<p id="p1" th:text="'You have submitted the following Review :'+ ${review}"></p>
+	
+	
+	<a href="index.html">Login</a> <br><br>
+	<a href="Register.html">Create an Account</a> <br><br>
+	<a href="Search.html">Search Restaurants</a>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<footer>
+<a href="index.html"> Home </a>
+	<a href="register.html"> New User Registration </a>
+	<a href="search.html"> Search </a>
+	
+<p><em>Copyright (c) 2019  Dinerbar<br>
+all rights reserved.</em></p>
+
+</footer>
+</body>
+</html>
