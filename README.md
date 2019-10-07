@@ -6,6 +6,9 @@ This project was done with one of my classmates [Prathibha Nallamasa](https://gi
 ## Project Description
 A website to search for restaurants and view their reviews. User should register with the website and then login to visit a restaurant or post a review. User can view all the details of the restaurant such as address, contact details, reviews, rating etc.
 
+### Features
+This website will have a search feature which allows the user to search for a specific restaurant. After visiting a restaurant user can post a review and rate the restaurant’s food, hospitality, ambience etc.
+
 This project uses Restaurant data from [OpenTable API http://opentable.herokuapp.com](http://opentable.herokuapp.com)
 
 ### NOTE:
