@@ -1,7 +1,7 @@
 # Restaurant Review
 This is the final project for one of my classes taken in Spring 2019
 
-This project was done with one of my classmates [Prathibha Nallamasa](https://github.com/prathibhaNallamasa)
+This project was done with one of my classmate [Prathibha Nallamasa](https://github.com/prathibhaNallamasa)
 
 ## Technical Specifications
 **Application Framework:** Spring Framework
